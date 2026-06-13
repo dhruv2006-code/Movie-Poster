@@ -1,0 +1,53 @@
+@font-face {
+    font-family: f1 ;
+    src: url(./GankerStorm-Regular.otf);
+}
+@font-face {
+    font-family: f2;
+    src: url(./HelpMe.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url(./download.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-color: black;
+  
+}
+p{
+    text-transform: capitalize;
+    font-family: 'f2';
+    color: white;
+    text-align: center;
+    font-size: 125px;
+    margin-right: 950px;
+    margin-top: 90px;
+    font-weight: 400;
+}
+.text{
+     text-transform: capitalize;
+    font-family: 'f1';
+    color: rgb(175, 167, 167);
+    text-align: right;
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: -60px;
+    margin-right: 20px;
+}
+.text span{
+    color: white;
+
+}
+.text .ex{
+
+ font-size: 90px;
+ margin-right: 100px;
+}
