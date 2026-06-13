@@ -6,6 +6,10 @@
     font-family: f2;
     src: url(./HelpMe.ttf);
 }
+@font-face {
+    font-family: lovely;
+    src: url(./Feeling\ Lovely.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -40,6 +44,7 @@ button{
     align-items: center;
     margin-top: 3%;
     width: 100px;
+   font-family: "Black Ops One", system-ui;
 }
 button:hover{
     background-color: rgb(13, 14, 12);
